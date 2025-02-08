@@ -5,11 +5,11 @@ typedef F1 = Void Function(Pointer<Void> ptr, Pointer<Uint8> buffer, Int len,
 typedef F1Dart = void Function(Pointer<Void> ptr, Pointer<Uint8> buffer,
     int len, int width, int height, int strideAlign);
 
-class Native {
-  Native._();
+class TextureRgbaRendererNative {
+  TextureRgbaRendererNative._();
 
-  static Native get _instance => Native._()..init();
-  static Native get instance => _instance;
+  static TextureRgbaRendererNative get _instance => TextureRgbaRendererNative._()..init();
+  static TextureRgbaRendererNative get instance => _instance;
 
   late F1Dart onRgba;
 

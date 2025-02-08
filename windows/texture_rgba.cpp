@@ -45,7 +45,7 @@ void TextureRgba::MarkVideoFrameAvailable(
 	// Do not check bellow. Because the data may have paddings per row.
 	// buffer.size() != width * height * 4
 
-	switch_rgba(buffer, height);
+	// switch_rgba(buffer, height);
 	const std::lock_guard<std::mutex> lock(mutex_);
 	int bg_index = fg_index_ ^ 1;
 	buffer.swap(buffer_tmp_[bg_index]);
