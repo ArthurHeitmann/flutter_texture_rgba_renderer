@@ -1,4 +1,4 @@
-import 'dart:ffi';
+import 'package:universal_ffi/ffi.dart';
 
 typedef F1 = Void Function(Pointer<Void> ptr, Pointer<Uint8> buffer, Int len,
     Int32 width, Int32 height, Int strideAlign);

@@ -1,8 +1,8 @@
 import 'dart:io';
-import 'dart:ffi';
+import 'package:universal_ffi/ffi.dart';
 import 'dart:math';
 import 'dart:typed_data';
-import 'package:ffi/ffi.dart';
+import 'package:universal_ffi/ffi_utils.dart';
 
 import 'package:flutter/material.dart';
 import 'dart:async';
