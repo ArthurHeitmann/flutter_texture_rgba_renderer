@@ -11,7 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
-  universal_ffi: ^1.1.3
+  universal_ffi:
+    git:
+      url: https://github.com/ArthurHeitmann/universal_ffi
+      ref: main
 
 dev_dependencies:
   flutter_test:
